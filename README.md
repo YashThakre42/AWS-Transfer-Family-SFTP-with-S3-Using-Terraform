@@ -1,3 +1,13 @@
-# AWS-Transfer-Family-to-securely-transfer-files-using-Terraform
+This Terraform configuration sets up an AWS Transfer Family (SFTP) server with S3 as storage. It provisions the required AWS resources, including:
 
-This Terraform code sets up an AWS Transfer Family Server to support SFTP (Secure File Transfer Protocol) backed by an S3 bucket, along with the necessary IAM roles, policies, networking components (VPC, subnet, security group), and a user for the SFTP service.
+✅ S3 Bucket for storing files
+
+✅ IAM Policies & Roles for secure access
+
+✅ VPC, Subnet, and Security Group for networking
+
+✅ AWS Transfer Family Server for SFTP access
+
+✅ SFTP User with home directory mapping
+
+After deploying this setup, users can securely transfer files via SFTP to an S3 bucket. 🚀
